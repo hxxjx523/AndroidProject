@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -17,15 +16,67 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="기온"
+        android:text="서울"
         android:textSize="40dp"
-        android:gravity="center" />
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="서울시"
+            android:text="18º"
+        android:textSize="70dp"
         android:gravity="center"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="맑음"
+        android:textSize="25dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="최고:25º 최저:14º"
+        android:textSize="25dp"
+        android:gravity="center"/>
+    
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최고:25º 최저:14º"
+                android:textSize="25dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최고:25º 최저:14º"
+                android:textSize="25dp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="최고:25º 최저:14º"
+                android:textSize="25dp"
+                android:gravity="center"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:text="기온 선택하기"
+        android:id="@+id/Temperature_choice"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#ACC6DE"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -33,4 +84,5 @@
         android:background="@drawable/rectangle"
         android:gravity="bottom"
         android:layout_gravity="bottom"/>
+
 </LinearLayout>

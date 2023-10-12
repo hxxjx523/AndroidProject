@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="오늘 날씨는?"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="매우낮음 ( -1 ~ )"
+        android:textSize="18dp"
+        android:id="@+id/Temperature_0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="낮음 ( 5 ~ 0 )"
+        android:textSize="18dp"
+        android:id="@+id/Temperature_1"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="보통 ( 6 ~ 18 )"
+        android:textSize="18dp"
+        android:id="@+id/Temperature_2"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="높음 ( 20 ~ 29 )"
+        android:textSize="18dp"
+        android:id="@+id/Temperature_3"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="높음 ( 30 ~ )"
+        android:textSize="18dp"
+        android:id="@+id/Temperature_4"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
