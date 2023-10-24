@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 
+//api 주소
+//api.openweathermap.org/data/2.5/weather?q=Seoul&APPID=251e5cc85b8c6c4647faef33bb035b1b
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
