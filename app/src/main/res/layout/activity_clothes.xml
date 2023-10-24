@@ -28,7 +28,7 @@
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="낮음 ( 5 ~ 0 )"
+        android:text="낮음 ( 0 ~ 5 )"
         android:textSize="18dp"
         android:id="@+id/Temperature_1"
         tools:ignore="MissingConstraints" />
@@ -36,7 +36,7 @@
     <CheckBox
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="보통 ( 6 ~ 18 )"
+        android:text="보통 ( 6 ~ 19 )"
         android:textSize="18dp"
         android:id="@+id/Temperature_2"
         tools:ignore="MissingConstraints" />
